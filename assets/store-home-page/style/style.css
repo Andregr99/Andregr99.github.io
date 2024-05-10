@@ -1,0 +1,1390 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? família=Lato:ital,wght@0,100;0.300;0.400;0.700;0.900;1.100;1.300;1.400;1.700;1.900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+}
+
+
+#promos {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    font-family: 'Titillium Web';
+    font-weight: 400;
+    font-size: 12px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#promos p {
+    cursor: pointer;
+}
+
+#logop {
+    font-weight: 700;
+    font-size: 28px;
+    color: #FAA500;
+
+    @media (max-width: 620px) {
+        font-size: 24px;
+    }
+}
+
+.header-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 88px;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+
+    @media (max-width: 1150px) {
+        gap: 39px;
+    }
+
+    @media (max-width: 620px) {
+        gap: 10px;
+    }
+}
+
+.busca {
+    width: 100%;
+    max-width: 791px;
+    display: flex;
+}
+
+.searchbar {
+    width: 100%;
+    max-width: 672px;
+    background: #EFEFEF;
+    border-radius: 10px 0px 0px 10px;
+    height: 40px;
+    border: none;
+    padding-left: 24px;
+
+    @media (max-width: 620px) {
+        height: 25px;
+        padding-left: 8px;
+        font-size: 14px;
+    }
+}
+
+.searchbar::placeholder {
+    color: #353535;
+    @media (max-width: 620px) {
+    font-size: 0}
+}
+
+.btnBuscar {
+    width: 119px;
+    background: #FAA500;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnBuscar:hover {
+    background: orangered
+}
+
+.list-right {
+    display: flex;
+    list-style: none;
+    gap: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+
+    @media screen and (max-width: 650px) {
+        gap: 10px;
+    }
+}
+
+.minhaConta {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#meuCarrinho {
+    border: 1px solid #FAA500;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+
+.menu {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 850px) {
+        padding-left: 10px;
+        width: 50px;
+    }
+
+}
+
+.prev-btn {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: transparent;
+    background: transparent;
+    border: none;
+
+    &::before {
+        content: url(../img/setaesquerda.png);
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 1550px) {
+        top: 250px;
+        left: 100px;
+    }
+
+    @media screen and (max-width: 1220px) {
+        top: 200px;
+        left: 100px;
+    }
+
+    @media screen and (max-width: 1100px) {
+        top: 150px;
+        left: 100px;
+    }
+
+    @media screen and (max-width: 720px) {
+        top: 50px;
+        left: 10px;
+    }
+}
+
+.next-btn {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    color: transparent;
+    background: transparent;
+    border: none;
+
+    &::before {
+        content: url(../img/setadireita.png);
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 1550px) {
+        top: 250px;
+        right: 100px;
+    }
+
+    @media screen and (max-width: 1220px) {
+        top: 200px;
+        right: 100px;
+    }
+
+    @media screen and (max-width: 1100px) {
+        top: 150px;
+        right: 100px;
+    }
+
+    @media screen and (max-width: 720px) {
+        top: 50px;
+        right: 10px;
+    }
+
+}
+
+.owl-prev {
+    position: relative;
+    right: 20px;
+
+    color: transparent;
+    background: transparent;
+    border: none;
+    z-index: 1000;
+
+    &::before {
+        content: url(../img/setaesquerda.png);
+        cursor: pointer;
+        width: 20px !important;
+    }
+
+}
+
+.owl-next {
+    position: relative;
+    left: 20px;
+
+    color: transparent;
+    background: transparent;
+    border: none;
+    z-index: 1000;
+
+    &::before {
+        content: url(../img/setadireita.png);
+        cursor: pointer;
+        width: 20px !important;
+    }
+
+
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.menu-content {
+    display: none;
+}
+
+.close-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.close-menu span {
+    font-size: 24px;
+    color: black;
+}
+
+@media screen and (min-width: 851px) {
+    .list-menu {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 50px;
+
+    }
+
+    .listMenu {
+
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .list-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .listMenu {
+        padding-left: 10px;
+
+        cursor: pointer;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu.open .list-menu {
+        display: flex;
+    }
+
+    .menu.open .menu-content {
+        display: block;
+    }
+
+    .menu.open .close-menu {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .list-menu img {
+        display: none;
+    }
+}
+
+#novidades {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FAA500;
+    cursor: pointer;
+
+    @media screen and (max-width: 850px) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+#textNovidades {
+    margin-left: 10px;
+
+    @media screen and (max-width: 850px) {
+        margin-left: 0;
+    }
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.promoOutono {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.confiraOutono {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    width: 467px;
+    margin-bottom: 32px;
+
+}
+
+.btnConf {
+    background: #FAA500;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    width: 128px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.btnConf:hover {
+    background: orangered;
+}
+
+#porqueComprar {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    height: 24px;
+    color: #353535;
+    padding: 21px;
+}
+
+#pqComprar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.motivos {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    padding: 11px 27px;
+    background: #EFEFEF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.textMotivos1 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.textMotivos2 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.MarcasParceiras {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.parceiros {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    color: #353535;
+    margin-top: 80px;
+    margin-bottom: 17px;
+
+}
+
+.imgParceiros {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    @media screen and (min-width:1350px) {
+        flex-wrap: wrap;
+    }
+
+}
+
+.imgParceiros img {
+    cursor: pointer;
+
+    @media screen and (max-width:700px) {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+.MaisPedidas {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #353535;
+    margin: 80px auto 20px;
+}
+
+.roupa {
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    justify-content: center;
+}
+
+.roupapreta {
+    &:hover {
+        content: url(../img/roupaamarela.png);
+
+    }
+}
+
+.roupaamarela {
+    &:hover {
+        content: url(../img/roupapreta.png);
+
+    }
+}
+
+.container-color {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin-top: 8px;
+
+}
+
+.color1 {
+    border: 1px solid #353535;
+    border-radius: 4px;
+    background: #DEAC71;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.color2 {
+    border: 1px solid #353535;
+    background: #D37164;
+    border-radius: 4px;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.color3 {
+    background: #6497D3;
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.color4 {
+    background: #3C3B79;
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+
+    cursor: pointer;
+    height: 27px;
+}
+
+.color5 {
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+    height: 27px;
+    background: #1C1A19;
+    cursor: pointer;
+}
+
+.color6 {
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+    height: 27px;
+    background: #D84E4B;
+    cursor: pointer;
+}
+
+.color7 {
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+    height: 27px;
+    background: #CFC9B0;
+    cursor: pointer;
+}
+
+.color8 {
+    border-radius: 4px;
+    border: 1px solid #353535;
+    width: 27px;
+    height: 27px;
+    background: #EAE9E5;
+    cursor: pointer;
+}
+
+.valor {
+    font-weight: 700;
+    font-size: 20px;
+    color: #353535;
+    margin-bottom: 8px;
+}
+
+.marca {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.descrição {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.5;
+    width: 254px;
+    margin-bottom: 8px;
+    min-height: 54px;
+}
+
+.setasProduto {
+    display: flex;
+    align-items: center;
+}
+
+.textValor {
+    gap: 10px;
+}
+
+.adicionar {
+    background: #FAA500;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    width: 254px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.adicionar {
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+
+    &:hover {
+        background: orangered;
+    }
+}
+
+
+.containerRoupa {
+    max-width: 254px;
+    margin-right: 16px;
+
+    padding: 0 10px;
+    text-align: initial;
+}
+
+.roupa::-webkit-scrollbar {
+    display: none;
+}
+
+.owl-carousel .item {
+    max-width: 254px;
+    margin: 0 auto;
+
+}
+
+
+.owl-carousel.owl-loaded {
+    max-width: 1260px;
+
+    margin: 37px auto 0;
+
+}
+
+.novaColeção {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.imgColeção {
+    @media screen and (min-width:1500px) {
+        width: 1100px;
+    }
+
+    @media screen and (min-width:1200px) and (max-width:1499px) {
+        width: 800px;
+    }
+
+}
+
+.textLorem {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+
+}
+
+.textLorem2 {
+    font-weight: 400;
+    font-size: 14px;
+    width: 420px;
+}
+
+.containerTextColeção {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    @media screen and (max-width:1350px) {
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+.containerNewsletter {
+    height: 120px;
+    width: 100%;
+    background: #FAFAFA;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.textNewsletter {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.inputNewsletter {
+    background-color: white;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    width: 630px;
+    height: 40px;
+    padding-left: 24px;
+}
+
+.inputNewsletter::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+
+}
+
+.botaoNewsletter {
+    background: #FAA500;
+    border: none;
+    border-radius: 4px;
+    width: 131px;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #FAA500;
+    cursor: pointer;
+}
+
+.botaoNewsletter:hover {
+    background: orangered;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    width: 100%;
+    max-height: 376px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    @media (max-width: 1100px) {
+        gap: 100px;
+        width: unset;
+        max-height: unset;
+    }
+}
+
+.footerNegrito {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #353535;
+
+    list-style-type: none;
+
+    @media (max-width: 768px) {
+        cursor: pointer;
+    }
+
+}
+
+.textoFooter {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.list-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width:851px) {
+    .footer-menu {
+        flex-direction: column;
+        padding-left: 10px;
+        gap: 0;
+    }
+
+    .footerNegrito {
+        cursor: pointer;
+
+    }
+
+}
+
+
+.containerSocial {
+    background-color: #353535;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    height: 85px;
+    align-content: center;
+    align-items: center;
+}
+
+.media {
+    margin-left: 21px;
+    width: 20px;
+    height: 20px;
+}
+
+.pagamento {
+    margin-left: 21px;
+}
+
+.powered {
+    display: flex;
+    gap: 20px;
+}
+
+.poweredBy {
+    font-style: 'open sans';
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+
+.BemVindo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 15px;
+
+}
+
+.inputEmail {
+    width: 322px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #787D83;
+    padding-left: 13px;
+}
+
+.bVindoEmail {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #464B54;
+    margin-bottom: 15px;
+}
+
+.textEmail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #787D83;
+}
+
+#textDescEmail {
+    font-weight: 700;
+    color: #787D83;
+    margin-bottom: 25px;
+}
+
+.inputEmail {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    height: 40px;
+    width: 322px;
+}
+
+#moda {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.705);
+
+}
+
+.botaoFechar {
+    text-align: end;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'lato';
+    margin-left: 800px;
+
+}
+
+#containerModal {
+    display: flex;
+    width: 848px;
+    height: 529.65px;
+    background-color: white;
+}
+
+#botaoModal {
+    background: #FAA500;
+    border-radius: 10px;
+    height: 40px;
+    width: 322px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+#botaoModal:hover {
+    background: orangered
+}
+
+.aviao {
+    margin-left: 8px
+}
+
+.button-owl {
+    margin-top: 25px;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .owl-item {
+        width: inherit !important;
+    }
+
+    .owl-stage {
+        display: flex !important;
+    }
+
+    #promos {
+        width: 100%;
+        background: #353535;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .promoOutono {
+        font-weight: 700;
+        font-size: 30px;
+        width: 223px;
+    }
+
+    .confiraOutono {
+        font-weight: 400;
+        font-size: 14px;
+        width: 239px;
+    }
+
+    .btnConf {
+        font-weight: 700;
+        font-size: 14px;
+        width: 76px;
+        height: 28px;
+    }
+
+    #porqueComprar {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .textMotivos1 {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .textMotivos2 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .motivos {
+        width: 298px;
+        height: 64px;
+    }
+
+    .MarcasParceiras {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .MaisPedidas {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .slider {
+        overflow-x: scroll;
+        max-width: 100%;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .slider::-webkit-scrollbar {
+        display: none;
+    }
+
+
+
+
+    .minhaConta p {
+        display: none;
+    }
+
+    #meuCarrinho {
+        display: block;
+        border: none;
+        padding: 0 5px 0 0;
+
+    }
+
+    #sacola {
+        display: block;
+    }
+
+    #textCarrinho {
+        display: none;
+    }
+
+
+
+    .imgParceiros {
+        overflow-x: scroll;
+        max-width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 30px;
+
+    }
+
+    .imgParceiros::-webkit-scrollbar {
+        display: none;
+    }
+
+    .setasProduto {
+        display: none;
+    }
+
+    .novaColeção {
+        flex-direction: column;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .imgColeção {
+        width: 300px;
+        height: 185px;
+        margin-bottom: 39px;
+    }
+
+    .textLorem1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .textLorem2 {
+        width: 269px;
+        margin-bottom: 24px;
+    }
+
+    .containerNewsletter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textNewsletter {
+        margin-top: 2px;
+    }
+
+    .inputNewsletter {
+        width: 204px;
+        height: 26px;
+        border: 0.5px solid #353535;
+        border-radius: 4px;
+    }
+
+    .botaoNewsletter {
+        width: 79px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+
+    .containerNewsletter {
+        height: 120px;
+        gap: 10px;
+    }
+
+    .containerSocial {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1350px) {
+    #promoDispnoveis {
+        width: 100%;
+        background: #353535;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .promoOutono {
+        font-weight: 700;
+        font-size: 30px;
+        width: 223px;
+    }
+
+    .confiraOutono {
+        font-weight: 400;
+        font-size: 14px;
+        width: 239px;
+    }
+
+    .btnConf {
+        font-weight: 700;
+        font-size: 14px;
+        width: 76px;
+        height: 28px;
+    }
+
+    #porqueComprar {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .textMotivos1 {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .textMotivos2 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .motivos {
+        width: 200px;
+        height: 64px;
+    }
+
+    .MarcasParceiras {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .MaisPedidas {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .slider {
+        overflow-x: scroll;
+        max-width: 100%;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .slider::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .minhaConta p {
+        display: none;
+    }
+
+    #meuCarrinho {
+        display: block;
+        border: none;
+        padding: 0 5px 0 0;
+
+    }
+
+    sacola {
+        display: block;
+    }
+
+    #textCarrinho {
+        display: none;
+    }
+
+
+
+    .imgParceiros {
+        overflow-x: scroll;
+        max-width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 30px;
+
+    }
+
+    .imgParceiros::-webkit-scrollbar {
+        display: none;
+    }
+
+    .setasProduto {
+        display: none;
+    }
+
+    .novaColeção {
+        flex-direction: column;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .imgColeção {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 39px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .textLorem1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .textLorem2 {
+        width: 80%;
+        margin-bottom: 24px;
+    }
+
+    .containerNewsletter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textNewsletter {
+        margin-top: 2px;
+    }
+
+    .inputNewsletter {
+        width: 204px;
+        height: 26px;
+        border: 0.5px solid #353535;
+        border-radius: 4px;
+    }
+
+    .botaoNewsletter {
+        width: 79px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+
+    .containerNewsletter {
+        height: 120px;
+        gap: 10px;
+    }
+
+    .containerSocial {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+    @media screen and (min-width:320px) and (max-width:827px) {
+        .imagem {
+            display: none;
+
+        }
+
+        .botaoFechar {
+            display: flex;
+            margin-left: 300px;
+            font-size: 11px;
+        }
+    }
+}
+
+/* Ajuste para dispositivos móveis */
+
+@media screen and (max-width: 850px) {
+
+    #menu-desk {
+        display: none;
+    }
+
+    .roupas-carousel {
+
+        overflow: hidden;
+    }
+
+    .containerRoupa {
+
+        flex:
+            0 0 auto;
+
+        width: 100%;
+
+        max-width: 254px;
+
+        margin-right: 16px;
+
+    }
+}
+
+@media screen and (min-width: 851px) {
+
+    #menu-mob {
+        display: none;
+    }
+}
