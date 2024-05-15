@@ -70,7 +70,15 @@ button:hover {
 #storediv{
     background-color: #fff ;
 }
+#streamingdiv{
+    background-color: #000 ;
+}
 
+#streaming{
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff ;
+}
 #store{
     font-weight: 700;
     font-size: 28px;
