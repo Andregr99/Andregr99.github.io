@@ -70,18 +70,17 @@
     height: 40px;
     border: none;
     padding-left: 24px;
-
+    font-size: 14px;
     @media (max-width: 620px) {
         height: 25px;
         padding-left: 8px;
-        font-size: 14px;
+        font-size: 0;
     }
 }
 
 .searchbar::placeholder {
     color: #353535;
-    @media (max-width: 620px) {
-    font-size: 0}
+    
 }
 
 .btnBuscar {

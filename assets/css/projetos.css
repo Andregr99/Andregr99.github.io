@@ -67,6 +67,15 @@ button:hover {
     color: #C4C4C4;
 }
 
+#storediv{
+    background-color: #fff ;
+}
+
+#store{
+    font-weight: 700;
+    font-size: 28px;
+    color: #FAA500;
+}
 .pro:hover {
     letter-spacing: 5px;
 }

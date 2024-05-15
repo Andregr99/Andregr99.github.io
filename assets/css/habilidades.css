@@ -92,6 +92,8 @@
 
 }
 
+
+
 .skill-box .icones-habilidades {
     transition: ease-in-out 0.3s;
 }
@@ -129,9 +131,8 @@
 }
 
 .skill8 {
-   
-     
- 
+    background-image: url(../img/vtex.svg);
+
 }
 
 .skill9 {
