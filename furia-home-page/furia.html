@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Furia Store</title>
+	<!-- store home page -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+	<!-- Owl Carousel JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+	<header>
+
+		<section class="header-row">
+			<!-- menu -->
+			<section id="menu-mob" class="menu">
+				<div class="menu-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<ul id="list-mob" class="list-menu">
+					<li id="logom" class="logo">
+						<img src="assets/img/LOGO.svg" alt="logo-menu">
+					</li>
+					<li class="listMenu" id="user-menu">
+						<img class="iconMenu" src="assets/img/User-Icon.svg" alt="Ícone do usuário">
+						<p id="user-textm">Minha Conta/Cadastrar</p>
+					</li>
+					<li class="listMenu" id="mpedidos">
+						<img class="iconMenu" src="assets/img/box.svg" alt="Ícone de pedidos">
+						<p id="textmpedidos">Meus Pedidos</p>
+					</li>
+					<li class="listMenu" id="Favoritem">
+						<img class="iconMenu" src="assets/img/Favorite-Icon.svg" alt="Ícone de favoritos">
+						<p id="textFavorite">Favoritos</p>
+					</li>
+					<li id="left-links-m" class="left-links">
+						<a href="furia.html" class="left-links-p">Shop All</a>
+						<a href="furia.html" class="left-links-p">Shop All</a>
+					</li>
+					
+				</ul>
+
+				<div class="close-menu">
+					<span>&times;</span>
+				</div>
+			</section>
+			<!-- menu -->
+
+			<!-- Coluna esquerda -->
+			<section class="left-column">
+				<div id="logo" class="logo">
+					<img class="logo-img" src="assets/img/LOGO.svg" alt="logo">
+				</div>
+				<div id="left-links-d" class="left-links">
+					<a href="furia.html" class="left-links-p">Shop All</a>
+					<a href="furia.html" class="left-links-p">Shop All</a>
+				</div>
+			</section>
+			<!-- Coluna esquerda -->
+
+			<!-- Coluna direita -->
+			<section class="right-column">
+				<!-- busca -->
+				<div id="buscadesk" class="busca">
+					<input class="searchbar" type="text" placeholder="Buscar"><button class="btnBuscar">
+						<img src="assets/img/Search-Icon.svg" alt="busca">
+					</button>
+				</div>
+				<!-- busca -->
+
+				<!-- links -->
+				<div class="list-right">
+					<ul class="u-list-right">
+						<li class="fav"> <a href="furia.html"><img src="assets/img/Favorite-Icon.svg"
+									alt="Favorite"></a>
+						</li>
+						<li class="user"><a href="furia.html"><img src="assets/img/User-Icon.svg" alt="User"></a>
+						</li>
+						<li class="minicart"><a href="furia.html"><img src="assets/img/minicart.svg" alt="minicart">
+						</li></a>
+					</ul>
+					<div class="language-block">
+						<img class="language-img" src="assets/img/Language.svg" alt="language-img">
+						<p class="language-p">Português, BR</p>
+						<img class="arrow-img" src="assets/img/Arrow-Right-Icon.svg" alt="arrow-img">
+					</div>
+				</div>
+
+				<!-- links -->
+			</section>
+			<!-- Coluna direita -->
+		</section>
+
+	</header>
+	<main id="container">
+
+		<section id="buscamob" class="busca">
+			<input class="searchbar" type="text" placeholder="Buscar"><button class="btnBuscar">
+				<img src="assets/img/Search-Icon.svg" alt="busca">
+			</button>
+		</section>
+
+		<!-- Banner -->
+		<section class="banner">
+			<img class="banner-img" src="assets/img/Banner.svg" alt="banner">
+		</section>
+		<!-- Banner -->
+
+		<!-- Marcas Parceiras -->
+		<section class="MarcasParceiras">
+			<div class="imgParceiros">
+				<img src="assets/img/Logo-Rivalry.svg" alt="Rivalry">
+				<img src="assets/img/AOC.svg" alt="AOC">
+				<img src="assets/img/HyperX.svg" alt="HyperX">
+				<img src="assets/img/Gamerscard.svg" alt="Gamerscard">
+				<img src="assets/img/ClearBrazil.svg" alt="ClearBrazil">
+				<img src="assets/img/Legion.svg" alt="Legion">
+				<img src="assets/img/Nike.svg" alt="Nike">
+			</div>
+		</section>
+		<!-- Marcas Parceiras -->
+
+		<!-- Lançamentos -->
+		<section class="lancamentos">
+			<div class="lancamentosTitle">
+				<h1 class="lancamentosH1">LANÇAMENTOS</h1>
+				<a href="furia.html" class="lancamentos-link">VER TUDO <img class="seta-cinza"
+						src="assets/img/Arrow-cinza.svg" alt="seta-cinza"></a>
+			</div>
+			<div class="owl-carousel roupas-carousel">
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="camisa-furia" src="assets/img/camisa-furia.svg" alt="camisa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						
+						<div class="textValor">
+							<p class="nome-item">Camisa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="blusa-furia" src="assets/img/blusa.svg" alt="blusa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Blusa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="camisa-azul" src="assets/img/camisa-azul.svg" alt="camisa-azul">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Camisa Furia Azul</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="blusa-furia" src="assets/img/blusa.svg" alt="blusa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Blusa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="button-owl">
+				<button class="owl-prev">
+					&lt
+				</button>
+				<button class="owl-next">
+					&gt
+				</button>
+			</div>
+		</section>
+		<!-- Lançamentos -->
+
+		<!-- youtube -->
+		<section id="youtube">
+			<h1 class="youtubeTitle">YOUTUBE</h1>
+			<figure class="fyoutube">
+				<iframe class="vyoutube" width="888" height="500" src="https://www.youtube.com/embed/-_1KSc48rxg"
+					title="CBLOL 2023: 1ª Etapa - Fase de Pontos | Los Grandes x FURIA" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</figure>
+		</section>
+		<!-- youtube -->
+
+		<!-- Lançamentos -->
+		<section class="lancamentos">
+			<div class="lancamentosTitle">
+				<h1 class="lancamentosH1">NOVIDADES</h1>
+				<a href="https://www.example.com" class="lancamentos-link">VER TUDO <img class="seta-cinza"
+						src="assets/img/Arrow-cinza.svg" alt="seta-cinza"></a>
+			</div>
+			<div class="owl-carousel roupas-carousel">
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="camisa-furia" src="assets/img/camisa-furia.svg" alt="camisa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Camisa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="blusa-furia" src="assets/img/blusa.svg" alt="blusa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Blusa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="camisa-azul" src="assets/img/camisa-azul.svg" alt="camisa-azul">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Camisa Furia Azul</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+				<div class="roupa">
+					<div class="containerRoupa">
+						<img class="blusa-furia" src="assets/img/blusa.svg" alt="blusa-furia">
+						<div class="hover">
+							<img class="sku" src="assets/img/sku.svg" alt="sku">
+							<button class="adicionar">COMPRAR</button>
+						</div>
+						<div class="textValor">
+							<p class="nome-item">Blusa Furia</p>
+							<div class="valores">
+								<p class="valor">R$ 9.999,99</p>
+								<p class="ex-valor">R$ 99.999,99</p>
+							</div>
+						</div>
+						<p class="descrição">Em até 3x sem juros no cartão</p>
+					</div>
+				</div>
+
+			</div>
+
+			</div>
+			<div class="button-owl">
+				<button class="owl-prev">
+					&lt
+				</button>
+				<button class="owl-next">
+					&gt
+				</button>
+			</div>
+		</section>
+		<!-- Lançamentos -->
+	</main>
+	<!-- footer -->
+	<footer class="container-footer">
+
+		<!-- Newsletter -->
+		<section class="containerNewsletter">
+			<!-- <div class="borda"> -->
+
+			<div class="newtext">
+				<h2 class="textNewsletterH1">ASSINE NOSSA NEWSLETTER!</h2>
+				<p class="textNewsletter">Receba descontos e novidades da furia por e-mail</p>
+			</div>
+
+			<div class="inputs">
+				<div class="input-name">
+					<input class="inputNewsletter" type="text" placeholder="Seu nome">
+				</div>
+				<div class="input-email">
+					<input class="inputNewsletter2" type="text" placeholder="E-mail">
+					<button class="botaoNewsletter">Enviar</button>
+				</div>
+			</div>
+
+			<div id="rsdesk" class="redes-sociais">
+
+				<ul class="list-sociais">
+					<li><a href="furia.html"><img class="facebook" src="assets/img/Facebook.svg" alt="Facebook"></a>
+					</li>
+					<li><a href="furia.html"><img class="youtube-icon" src="assets/img/Youtube-icon.svg"
+								alt="youtube-icon"></a>
+					</li>
+					<li><a href="furia.html"><img class="x" src="assets/img/X.svg" alt="x"></a>
+					</li>
+					<li><a href="furia.html"><img class="Twitch" src="assets/img/Twitch.svg" alt="Twitch"></a>
+					</li>
+				</ul>
+
+			</div>
+			</div>
+		</section>
+		<section id="rsmob" class="redes-sociais">
+
+			<ul class="list-sociais">
+				<li><a href="furia.html"><img class="facebook" src="assets/img/Facebook.svg" alt="Facebook"></a>
+				</li>
+				<li><a href="furia.html"><img class="youtube-icon" src="assets/img/Youtube-icon.svg"
+							alt="youtube-icon"></a>
+				</li>
+				<li><a href="furia.html"><img class="x" src="assets/img/X.svg" alt="x"></a>
+				</li>
+				<li><a href="furia.html"><img class="Twitch" src="assets/img/Twitch.svg" alt="Twitch"></a>
+				</li>
+			</ul>
+
+		</section>
+		<!-- Newsletter -->
+		<section class="footer-menu">
+			<div id="Institucional">
+				<h2 class="footerNegrito">Institucional</h2>
+				<ul class="list-footer">
+					<li class="textoFooter">Quem Somos</li>
+					<li class="textoFooter">Contato</li>
+					<li class="textoFooter">Central de Atendimento</li>
+				</ul>
+			</div>
+			<div id="Contato">
+				<h2 class="footerNegrito">Contato</h2>
+				<ul class="list-footer">
+					<li class="textoFooter">(11) 3035-0520</li>
+					<li class="textoFooter">Horário de Atendimento</li>
+					<li class="textoFooter">De Segunda à Sexta</li>
+					<li class="textoFooter">das 09h às 18h</li>
+					<li id="emai" class="textoFooter"><a class="emaila"
+							href="atendimento@loremipsum.com">atendimento@loremipsum.com</a></li>
+					<li class="textoFooter"><a class="wppf" href="https://web.whatsapp.com/">Whatsapp</a></li>
+				</ul>
+			</div>
+			<div id="Politicas">
+				<h2 class="footerNegrito">Politicas</h2>
+				<ul class="list-footer">
+					<li class="textoFooter">Prazos e Entregas</li>
+					<li class="textoFooter">Formas de pagamentos</li>
+					<li class="textoFooter">Promoções e Descontos</li>
+					<li class="textoFooter">Politica de privacidade</li>
+					<li class="textoFooter">Trocas e devoluções</li>
+				</ul>
+			</div>
+			<div id="pagamento">
+				<h2 class="footerNegrito">Formas de pagamento</h2>
+				<ul class="list-pagamento">
+					<li class="visa"><img src="assets/img/visa.svg" alt="visa">
+					</li>
+					<li class="mastercard"><img src="assets/img/mastercard.svg" alt="mastercard">
+					</li>
+					<li class="dinersclub"><img src="assets/img/dinersclub.svg" alt="dinersclub">
+					</li>
+					<li class="hipercard"><img src="assets/img/hipercard.svg" alt="hipercard">
+					</li>
+					<li class="elo"><img src="assets/img/elo.svg" alt="elo">
+					</li>
+					<li class="Frame"><img src="assets/img/Frame.svg" alt="Frame">
+					</li>
+					<li class="americanexpress"><img src="assets/img/americanexpress.svg" alt="americanexpress">
+					</li>
+					<li class="aura"><img src="assets/img/aura.svg" alt="aura">
+					</li>
+					<li class="jcb"><img src="assets/img/jcb.svg" alt="jcb">
+					</li>
+					<li class="boleto"><img src="assets/img/boleto.svg" alt="boleto">
+					</li>
+					<li class="pix"><img src="assets/img/pix.svg" alt="pix">
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="infos">
+			<div class="infoscont">
+				<div class="infosemp">
+					<p class="infostext">© 2023 FURIA - 42.374.282/0001-37. Em caso de divergência de preços no site, o
+						valor válido é o do Carrinho de compras. Preços e condições de pagamento podem variar de acordo
+						com
+						a disponibilidade de produtos.</p>
+				</div>
+				<div class="desenvolvimento">
+					<p class="desenvolvimentotext">Desenvolvido por: SERI.E Design</p>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<!-- footer -->
+
+	<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

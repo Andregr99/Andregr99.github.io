@@ -67,11 +67,19 @@ button:hover {
     color: #C4C4C4;
 }
 
+#furiadiv,
 #storediv{
     background-color: #fff ;
 }
 #streamingdiv{
     background-color: #000 ;
+}
+
+#furia{
+    font-weight: 700;
+    font-size: 28px;
+    color: #000;
+
 }
 
 #streaming{
