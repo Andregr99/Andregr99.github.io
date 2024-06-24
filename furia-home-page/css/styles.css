@@ -597,8 +597,8 @@
     font-size: 12px;
     line-height: 15px;
     color: #898989;
-    text-align: left;
-    max-width: 585px;
+    text-align: center;
+
 }
 
 .desenvolvimentotext {
@@ -706,7 +706,7 @@
 
     .button-owl {
         position: absolute;
-        bottom: 50px;
+        margin-top: -200px;
         width: 750px;
         display: flex;
         justify-content: space-between;
@@ -831,6 +831,7 @@
     .infos {
         border-top: 1px solid #e8e8e8;
         width: 98%;
+        margin: 0 auto;
     }
 
     .infoscont {
@@ -896,12 +897,14 @@
     #youtube {
         max-width: 366px;
     }
+
     .vyoutube {
-        border-radius: 0;
+        border-radius: 16px;
     }
+
     .button-owl {
         max-width: 390px;
-        bottom: 170px;
+        margin-top: -200px;
     }
 
 
@@ -1093,36 +1096,38 @@
 @media screen and (max-width: 520px) {
     .button-owl {
         max-width: 375px;
-     top: 290px;
+        margin-top: -200px;
     }
 
     .owl-next {
-       
-        left: 20px;}
+
+        left: 20px;
+    }
 }
 
 
 @media screen and (max-width: 390px) {
     .button-owl {
         max-width: 375px;
-        bottom: 240px;
+        margin-top: -200px;
         top: unset;
     }
-    
+
     .owl-next {
         width: 9px;
-         left: 0;}
- 
-         .owl-prev {
- right: 0;
-         }
+        left: 0;
+    }
+
+    .owl-prev {
+        right: 0;
+    }
 }
 
 @media screen and (max-width: 376px) {
     .button-owl {
-        
-        bottom: 170px;
-       
+
+        margin-top: -200px;
+
     }
 
 }
