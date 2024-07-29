@@ -102,7 +102,21 @@ img {
     width: 100%;
     padding: 25px 0;
 }
+.cv {
+    margin-top: 10px;
+    width: 479px;
+    height: 85px;
+    background-color:#007dbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+}
 
+.cv a {
+    width: 100%;
+    padding: 25px 0;
+}
 .link {
     font-size:25px;
     width:50%;
@@ -186,7 +200,10 @@ img {
         width: 479px;
         margin-top: 15px;
     }
-
+    .cv {
+        width: 479px;
+        margin-top: 15px;
+    }
     .esquerda {
         margin-left: 15px;
     }
