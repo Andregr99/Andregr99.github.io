@@ -67,30 +67,34 @@ button:hover {
     color: #C4C4C4;
 }
 
+#climadiv,
 #furiadiv,
 #storediv{
     background-color: #fff ;
+    font-weight: 700;
+    font-size: 28px;
 }
 #streamingdiv{
     background-color: #000 ;
-}
-
-#furia{
     font-weight: 700;
     font-size: 28px;
+}
+
+#furia{   
     color: #000;
 
 }
 
-#streaming{
-    font-weight: 700;
-    font-size: 28px;
+#streaming{   
     color: #fff ;
 }
-#store{
-    font-weight: 700;
-    font-size: 28px;
+#store{   
     color: #FAA500;
+}
+
+#clima{
+    
+    color: #C1593F;
 }
 .pro:hover {
     letter-spacing: 5px;
@@ -119,20 +123,20 @@ button:hover {
 }
 
 @media (max-width:1200px) {
-  .projetos{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
+.projetos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
-  #projetos {
-      display: flex;
-      justify-content: center;
-  }
+#projetos {
+    display: flex;
+    justify-content: center;
+}
 
-  .projetos-itens {
-      flex-direction: column;
-  }
+.projetos-itens {
+    flex-direction: column;
+}
 
 }
 @media (max-width:950px) {

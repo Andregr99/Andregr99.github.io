@@ -14,7 +14,7 @@
 .skills-descricao {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     gap:50px;
     padding-bottom: 70px;
 }
@@ -46,13 +46,13 @@
     transform: scale(1.05);
 }
 
-.conteiner-descricao {
+/*.conteiner-descricao {
     color: white;
     font-family: 'Quando', serif;
     font-size: 20px;
     max-width: 40%;
 }
-
+*/
 @media (max-width:1200px) {
 
   
@@ -86,9 +86,9 @@
         max-width: 300px;
     }
 
-    .conteiner-descricao {
+    /*.conteiner-descricao {
         max-width: 300px;
-    }
+    }*/
 
 }
 
@@ -102,6 +102,9 @@
     opacity: 0;
 }
 
+/*.skill0{
+    background-image: url(../img/Python.png);
+}*/
 .skill1{
     background-image: url(../img/html2.svg);
 }
