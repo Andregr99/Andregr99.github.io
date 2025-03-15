@@ -1,4 +1,4 @@
-/*const skills = document.querySelectorAll('.skill-box');
+const skills = document.querySelectorAll('.skill-box');
 const descricao = document.querySelector('.texto-descricao');
 const sobreSkill = [
                     '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
@@ -34,7 +34,7 @@ skills.forEach(  (elemento, index) => {
     elemento.addEventListener('mouseout', (evento, elemento,) => {
         descricao.innerHTML = ' Clique em alguma habilidade para ler a descrição ';
     } )
-} );*/
+} );
 
 
 
