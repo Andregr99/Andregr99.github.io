@@ -67,6 +67,7 @@ button:hover {
     color: #C4C4C4;
 }
 
+
 #climadiv,
 #furiadiv,
 #storediv{
@@ -74,6 +75,13 @@ button:hover {
     font-weight: 700;
     font-size: 28px;
 }
+
+#caddiv{
+    background: #007dbb;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 #streamingdiv{
     background-color: #000 ;
     font-weight: 700;
@@ -83,6 +91,10 @@ button:hover {
 #furia{   
     color: #000;
 
+}
+
+#cad{
+    color: #fff;
 }
 
 #streaming{   
