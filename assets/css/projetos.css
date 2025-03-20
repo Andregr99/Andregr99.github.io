@@ -76,6 +76,12 @@ button:hover {
     font-size: 28px;
 }
 
+#bookdiv{
+    background: #FF6C37;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 #caddiv{
     background: #007dbb;
     font-weight: 700;
@@ -93,10 +99,8 @@ button:hover {
 
 }
 
-#cad{
-    color: #fff;
-}
-
+#book,
+#cad,
 #streaming{   
     color: #fff ;
 }
