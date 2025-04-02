@@ -76,6 +76,11 @@ button:hover {
     font-size: 28px;
 }
 
+#B3div{
+    background-color: #002C63 ;
+    font-weight: 700;
+    font-size: 28px;
+}
 
 #bookdiv{
     background: #FF6C37;
@@ -93,6 +98,10 @@ button:hover {
     background-color: #000 ;
     font-weight: 700;
     font-size: 28px;
+}
+
+#B3{
+    color: #fff;
 }
 
 #RPAC{
