@@ -75,6 +75,12 @@ button:hover {
     font-size: 28px;
 }
 
+#mldiv{
+    background-color: #FFE600 ;
+    font-weight: 700;
+    font-size: 28px;
+}
+
 #B3div{
     background-color: #002C63 ;
     font-weight: 700;
@@ -97,6 +103,10 @@ button:hover {
     background-color: #000 ;
     font-weight: 700;
     font-size: 28px;
+}
+
+#ml{
+    color:#302F7C;
 }
 
 #B3{
